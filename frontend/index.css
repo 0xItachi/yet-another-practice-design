@@ -1,0 +1,120 @@
+html{
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #F0F6FF;
+    font-family: "Ubuntu";
+}
+
+.main-container{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background-color: #ffffff;
+    display:flex;
+    padding: 10px;
+    margin: auto;
+    /* border: 2px solid orange; only for understanding the overall struct*/ 
+    width: 900px;
+    height: 595px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.leftbox{
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+    /* border: 2px dotted red;only for understanding the overall struct */
+    /* width: 25%; */
+    height: 100%;
+    border-radius: 10px;
+    flex-basis:30%;
+    width:275px;
+    height:568px;
+    padding: 25px;
+}
+
+.half-right-box{
+    padding: 12px;
+}
+
+#btn1, #btn2, #btn3, #btn4{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid white;
+    font-size: medium;
+    font-weight: 500;
+    color:#ffffff;
+    margin-bottom: 25px;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+    background-color: #BFE2FD;
+    color: black;
+    cursor: pointer;
+}
+.toggle1, .toggle2, .toggle3, .toggle4{
+    display: flex;
+}
+.bld-br{
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 0.9;
+    margin: 0;
+    padding-left: 10px
+}
+#p1, #p2, #p3, #p4{
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#ADBEFF;
+    opacity: 0.5;
+}
+.para-div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+.rightbox{
+    padding: 60px;
+    /* border: 2px dotted green; only for understanding the overall struct */
+    height: 100%;
+    flex-basis: 70%;
+    border-radius: 10px;
+    color: #02295A
+}
+.leftbox img{
+    height:100%;
+    width: 100%;
+    object-fit: fill;
+}
+.h-in-f{
+    margin:0;
+}
+.p-in-f{
+    opacity: 0.5;
+    margin-bottom: 25px;
+}
+/* Form start from here */
+.form-container h3{
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+#user_name, #email_id, #phone_number{
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+#user_name:hover , #email_id:hover, #phone_number:hover{
+    border-color: #02295A;
+}
