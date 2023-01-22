@@ -14,3 +14,8 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+/assets
+/design
+/index.html
+/README-template.md
